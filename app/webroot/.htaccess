@@ -1,0 +1,9 @@
+AddType application/x-httpd-php .html
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+# If you want to listing directory, please remove below line
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+</IfModule>

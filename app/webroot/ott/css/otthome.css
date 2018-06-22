@@ -1,0 +1,327 @@
+
+.highcharts-plot-background{
+    border: 1px solid #999999 !important;
+}
+
+.mainKpiTable {
+    padding: 0 25px;
+    margin: 0 0 15px;
+    display: table;
+    width: 100%;
+}
+
+.mainKpiTable__boxCell {
+    display: table-cell;
+    vertical-align: top;
+}
+
+
+.mainKpiTable__dividerCell {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 60px;
+    color: #999;
+}
+
+.mainKpiBox__termlabel {
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-bottom: 3px;
+    margin-bottom: 3px;
+    display: block;
+    border-bottom: 1px solid #ddd;
+}
+
+.mainKpiContentsTable {
+    display: table;
+    width: 100%;
+}
+
+.mainKpiContent.allDevice {
+    padding-left: 15px;
+    padding-right: 20px;
+    height: 45px;
+}
+
+.mainKpiContent {
+    display: table-cell;
+    vertical-align: middle;
+    padding-right: 5px;
+}
+
+.allDevice .mainKpiContent__contents__value {
+    font-size: 24px;
+    padding-left: 7px;
+}
+
+.mainKpiContent__contents__unit {
+    font-size: 14px;
+}
+
+.mainKpiContent__contents__exceptFixData {
+    font-size: 12px;
+    margin: 5px 0 0 0;
+    white-space: nowrap;
+}
+
+.mainKpiContent__label {
+    font-size: 13px;
+    margin: 0;
+    line-height: 1.0;
+    vertical-align: middle;
+}
+
+.mainKpiContent__contents {
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.0;
+    text-align: center;
+    min-width: 80px;
+}
+
+.mainKpiTable__dividerCell i {
+    font-size: 32px;
+}
+
+.mainKpiContent__label i {
+    font-size: 24px;
+}
+.mainKpiContent__label i.fa-mobile {
+    font-size: 40px;
+    max-height: 28px;
+    /*overflow: hidden;*/
+}
+.mainKpiContent__label {
+    font-size: 13px;
+    margin: 0;
+    line-height: 1.0;
+    vertical-align: middle;
+}
+
+.mainKpiContent__contents__value {
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+.mainKpiContent__contents__unit {
+    font-size: 14px;
+}
+
+
+.info_report li {
+    display: inline;
+    font-size:16px;
+    height:50px;
+    display:block;
+    padding:10px
+}
+.info_report li i{
+    font-size: 30px;
+}
+
+.info_report li span.number_report{
+    font-weight: bold;font-size: 13px
+}
+.info_report li span.total{
+    font-weight: bold;
+    font-size:23px
+}
+
+.box{
+    width: 20%;
+    float: left;
+    margin-bottom: 10px;
+    padding-top: 10px
+}
+
+.sub_box{
+    border: 1px solid #999;
+   /* border-radius: 4px;*/
+    list-style:none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width:80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background: #fff;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 2px 2px 5px #efefef;
+    padding-left: 0;
+}
+
+.error_icon{
+    float: right;
+    color: red;
+}
+
+.success_icon{
+    float: right;
+    color: green;
+}
+
+.big_number{
+    font-size: 24px;
+}
+.sub_box li{
+    display:block;
+    width:80%;
+    text-align:center;
+    clear:both;
+    margin: auto;
+}
+.sub_box li span.left{
+    width:50%;
+    display:block;
+    float:left;
+    text-align: left;
+}
+.sub_box li span.right{
+    width:50%;
+    display:block;
+    float:left;
+    text-align: right;
+    margin: auto;
+}
+
+.mgbt{
+    margin-bottom: 20px
+}
+
+.button_display_chart{
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+    position: absolute;
+    right: 20px;
+    z-index: 1000;
+}
+.box:hover{
+    background-color: #eeeeee;
+}
+.page-header {
+    margin: 20px 10px 20px;
+    border-left: 3px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 5px 10px;
+    position: relative;
+}
+.small_note{
+    font-size: 13px;
+}
+/*18-08-2017 dktran*/
+.textFrontBox {
+    padding: 0 10px;
+}
+.itemFrontbox {
+    width: 80%;
+    margin: auto;
+}
+@media(max-width: 1200px){
+.mainKpiTable {
+    display: inline-grid;
+}
+.mainKpiTable__dividerCell i {
+    -ms-transform: rotate(90deg); 
+    -webkit-transform: rotate(90deg); 
+    transform: rotate(90deg);
+}
+.box {
+    width: 25%;
+}
+.mainKpiTable__boxCell, .mainKpiTable__dividerCell {
+display: inline-block;
+}
+}
+
+@media(max-width: 992px){
+.box {
+    width: 33.333333333333333%;
+}
+}
+
+@media(max-width: 768px){
+.box {
+    width: 50%;
+}
+.commonh2 {
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 42px;
+}
+}
+
+@media(max-width: 560px){
+.mainKpiContent__label {
+    width: 100%;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.mainKpiContent__contents {
+    width: 100%;
+}
+.mainKpiContent.allDevice {
+    padding: 0;
+}
+p {
+    line-height: 22px;
+}
+.mainKpiContent__contents__value {
+    font-size: 16px;
+}
+.allDevice .mainKpiContent__contents__value {
+    font-size: 20px;
+}
+.mainKpiTable {
+    padding: 0 10px;
+}
+.mainKpiTable__dividerCell i {
+    margin-bottom: 8px;
+}
+}
+
+@media(max-width: 414px){
+.box {
+    width: 100%;
+}
+
+}
+
+.success{
+    color: green
+}
+
+.error{
+    color: red
+}
+
+/*Loading*/
+.loader {
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  z-index: 1;
+  margin: -75px 0 0 -30px;
+  border: 8px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 8px solid #3498db;
+  width: 60px;
+  height: 60px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

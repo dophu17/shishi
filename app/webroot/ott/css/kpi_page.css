@@ -1,0 +1,547 @@
+.btn_select {
+    position: relative;
+    right: -15px;
+}
+h2.commonh2 {
+    font-size: 24px;
+    margin: 20px -15px;
+}
+.headerBtns {
+    display: inline-block;
+    float: right;
+    bottom: 10px;
+    right: 15px;
+}
+.reportTableWrapper.col-md-12 {
+    min-height: 500px;
+    margin-bottom: 100px;
+}
+table > tbody > tr > th.reportTable__monthlbl.active {
+    background-color: #efefef;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #555555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+.table > thead > tr > th, .table > thead > tr > td, .table > tbody > tr > th, .table > tbody > tr > td, .table > tfoot > tr > th, .table > tfoot > tr > td {
+    padding: 8px;
+    line-height: 1.428571429;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+.mainNumber {
+    font-weight: bold;
+}
+
+.mainNumber.minus {
+    color: #a94442;
+}
+
+.subNumber.minus {
+    color: #a94442;
+}
+
+.subNumber {
+    padding-left: 10px;
+    color: #555;
+    display: block;
+}
+
+.reportTable.table .targetLine {
+    background-color: #f9f9f9;
+}
+
+.editable .edit-actual-btn {
+    width: 20px;
+    display: none;
+}
+
+.reportTable__weeklbl5 {
+    width: 156px;
+}
+.reportTable__monthlbl, .reportTable__sumlbl {
+    width: 130px;
+}
+
+.editable .edit-target-btn {
+    width: 20px;
+    display: none;
+}
+
+.editable .hiddenValueSpan {
+    display: none;
+}
+
+.reportTable.table.weeklyTable > tbody > tr > th.current {
+    background-color: #ddd;
+    border: 1px solid #aaa;
+}
+
+.thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.428571429;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.well {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.show{
+    display: block;
+}
+
+.hide{
+    display: none !important;
+}
+
+.show_icon_edit{
+    display: block !important;
+    width: 20px;
+    float: right;
+}
+
+.wrap_input_update:after {
+    clear: both;
+    display: table;
+    content: "";
+}
+.wrap_input_update{display: none;}
+.input_update_value{
+    float: left;
+    width: 90px;
+    border-bottom-right-radius: 0 !important ;
+    border-top-right-radius: 0 !important;
+    display: block;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #555555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    padding: 0 7px;
+    height: 28px;
+}
+.btn_update_value{
+    float: left;
+    margin-left: -1px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.reportTableWrapper.col-md-12 {
+    margin-bottom: 30px !important;
+}
+.modal-title {
+    font-weight: bolder;
+}
+.btn-modify {
+    background-color: #2bba4f;
+    border: none;
+    color: white;
+}
+/*Modify month*/
+.insertUnit {
+    position: relative;
+    top: 0;
+    left: -55px;
+}
+.modifyMonth {
+    border-radius: 5px;
+    padding: 5px 9px;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 0 6px #f3f0f0;
+    width: 70px;
+    height: 35px;
+    position: relative;
+    display: inline-block;
+}
+.modifyMonth .cong,
+.modifyMonth .tru {
+    position: absolute;
+    content: "^";
+    cursor: pointer;
+    font-size: 20px;
+    top: -6px;
+    right: 10px;
+}
+.modifyMonth .tru {
+    bottom: -6px;
+    top: inherit;
+}
+.modal-body ul li{
+    list-style: none;
+    display: inline-block;
+    width: 15%;
+}
+.range_setting_msg{width: 100%;text-align: center}
+.kpi_setting_msg{width: 100%;text-align: center}
+.current_week{
+    background-color: #ddd !important;
+    border: 1px solid #aaa;
+}
+.site_note{
+    width: 100%;
+    margin-bottom: 0;
+    height: 150px;
+    /*overflow-y: scroll;*/
+}
+.btn_update_site_note{
+    float: right
+}
+.btn_update_month_note{
+    float: right;
+    margin-right: 4px
+}
+
+/*Reponsive*/
+@media (min-width: 992px){
+    .width10 {
+        width: 10%;
+    }
+}
+
+@media (max-width: 992px){
+    .width10 {
+        width: 10%;
+    }
+    .container {
+        width: 100%;
+    }
+    .table > thead > tr > th, .table > thead > tr > td, .table > tbody > tr > th, .table > tbody > tr > td, .table > tfoot > tr > th, .table > tfoot > tr > td {
+        padding: 4px;
+    }
+}
+
+@media (max-width: 768px){
+    /*.subNumber span{
+        display: block;
+    }*/
+    .btn_select {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 414px){
+
+}.btn_select {
+    position: relative;
+    right: -15px;
+}
+h2.commonh2 {
+    font-size: 24px;
+    margin: 20px -15px;
+}
+.headerBtns {
+    display: inline-block;
+    float: right;
+    bottom: 10px;
+    right: 15px;
+}
+.reportTableWrapper.col-md-12 {
+    min-height: 500px;
+    margin-bottom: 100px;
+}
+table > tbody > tr > th.reportTable__monthlbl.active {
+    background-color: #efefef;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #555555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+.table > thead > tr > th, .table > thead > tr > td, .table > tbody > tr > th, .table > tbody > tr > td, .table > tfoot > tr > th, .table > tfoot > tr > td {
+    padding: 8px;
+    line-height: 1.428571429;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+.mainNumber {
+    font-weight: bold;
+}
+
+.mainNumber.minus {
+    color: #a94442;
+}
+
+.subNumber.minus {
+    color: #a94442;
+}
+
+.subNumber {
+    padding-left: 10px;
+    color: #555;
+    display: block;
+}
+
+.reportTable.table .targetLine {
+    background-color: #f9f9f9;
+}
+
+.editable .edit-actual-btn {
+    width: 20px;
+    display: none;
+}
+
+.reportTable__weeklbl5 {
+    width: 156px;
+}
+.reportTable__monthlbl, .reportTable__sumlbl {
+    width: 130px;
+}
+
+.editable .edit-target-btn {
+    width: 20px;
+    display: none;
+}
+
+.editable .hiddenValueSpan {
+    display: none;
+}
+
+.reportTable.table.weeklyTable > tbody > tr > th.current {
+    background-color: #ddd;
+    border: 1px solid #aaa;
+}
+
+.thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.428571429;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.well {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.show{
+	display: block;
+}
+
+.hide{
+	display: none !important;
+}
+
+.show_icon_edit{
+	display: block !important;
+	width: 20px;
+	float: right;
+}
+
+.wrap_input_update:after {
+    clear: both;
+    display: table;
+    content: "";
+}
+.wrap_input_update{display: none;}
+.input_update_value{
+    float: left;
+    width: 90px;
+    border-bottom-right-radius: 0 !important ;
+    border-top-right-radius: 0 !important;
+    display: block;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #555555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    padding: 0 7px;
+    height: 28px;
+}
+.btn_update_value{
+    float: left;
+    margin-left: -1px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.reportTableWrapper.col-md-12 {
+    margin-bottom: 30px !important;
+}
+.modal-title {
+	font-weight: bolder;
+}
+.btn-modify {
+	background-color: #2bba4f;
+	border: none;
+	color: white;
+}
+/*Modify month*/
+.insertUnit {
+    position: relative;
+    top: 0;
+    left: -55px;
+}
+.modifyMonth {
+    border-radius: 5px;
+    padding: 5px 9px;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 0 6px #f3f0f0;
+    width: 70px;
+    height: 35px;
+    position: relative;
+    display: inline-block;
+}
+.modifyMonth .cong,
+.modifyMonth .tru {
+    position: absolute;
+    content: "^";
+    cursor: pointer;
+    font-size: 20px;
+    top: -6px;
+    right: 10px;
+}
+.modifyMonth .tru {
+    bottom: -6px;
+    top: inherit;
+}
+.modal-body ul li{
+	list-style: none;
+	display: inline-block;
+	width: 15%;
+}
+.range_setting_msg{width: 100%;text-align: center}
+.kpi_setting_msg{width: 100%;text-align: center}
+.current_week{
+    background-color: #ddd !important;
+    border: 1px solid #aaa;
+}
+.site_note{
+    width: 100%;
+    margin-bottom: 0;
+    height: 150px;
+    /*overflow-y: scroll;*/
+}
+.btn_update_site_note{
+    float: right
+}
+.btn_update_month_note{
+    float: right;
+    margin-right: 4px
+}
+
+/*Reponsive*/
+@media (min-width: 992px){
+    .width10 {
+        width: 10%;
+    }
+}
+
+@media (max-width: 992px){
+    .width10 {
+        width: 10%;
+    }
+    .container {
+        width: 100%;
+    }
+    .table > thead > tr > th, .table > thead > tr > td, .table > tbody > tr > th, .table > tbody > tr > td, .table > tfoot > tr > th, .table > tfoot > tr > td {
+        padding: 4px;
+    }
+}
+
+@media (max-width: 768px){
+  /*  .subNumber span{
+        display: block;
+    }*/
+    .btn_select {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 414px){
+
+}
+
+.advice_input{
+    width: 110px;
+}
+
+.advice_input.number{
+    width: 110px;
+    padding-left: 10px;
+    padding-right:12px;
+}
+
+.advice_input_subchar {
+    display: block;
+    float: right;
+    width: 10px;
+    position: absolute;
+    top: 10px;
+    right: -2px;
+    z-index: 999;
+}
+
+.advice_note{display:none}
+.advice_data{display:none;}
+.advice_data_cal{display:none;}
+.send_all_info_month {margin-top: 10px;}
+.btn_update_advice_note{float: right;margin-right: 4px;}
+input.advice_input{margin-bottom: 5px;}
+
+.copy_msg{width: 100%;clear: both;text-align: center;display: block;}
+.copy_msg.warning{color: red}

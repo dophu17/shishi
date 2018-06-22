@@ -1,0 +1,11 @@
+//Shishimai dev note
+============================ Server info ====================
+http://developer.teamworkers.jp/admin/
+mor / mor123456
+
+sftp: developer.teamworkers.jp
+user: teamwork
+key file: id_rsa.ppk
+thư mục source: /dev_htdocs
+
+=============================================================

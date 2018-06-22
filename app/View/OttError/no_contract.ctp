@@ -1,0 +1,1 @@
+<div class="alert alert-warning">現在契約期限が切れております。<a href='https://www.henobu.com/contact_other/'>「お問い合わせ」</a>よりご連絡ください。</div>

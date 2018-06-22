@@ -1,0 +1,65 @@
+.icon_face {
+	position: relative;
+    top: 4px;
+}
+.room {
+    position: relative;
+    top: 3px;
+    margin-right: 7px !important;
+}
+.error {
+    background-color: #ce3131;
+    border-color: #faebcc;
+    color: #f5f5f5;
+    padding : 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 0;
+    z-index: 1000;
+}
+.ruleForm {
+    color: #f50904;
+}
+.success {
+    background-color: #5cb85c;
+    border-color: #d6e9c6;
+    color: #fcf8e3;
+    padding : 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 0;
+    z-index: 1000;
+}
+
+/*.modal.in .modal-dialog {
+    padding-top: 10%;
+}*/
+.form_edit_plan {
+    padding-top: 7px;
+}
+
+.m10 .btn-xs{
+    margin-bottom: 10px;
+}
+
+@media(max-width: 414px){
+    .projectIndexHeaderBtns {
+        margin-bottom: 10px;
+    }
+  /*  .container {
+        padding-left: 5px;
+        padding-right: 5px;
+    }*/
+    .name_img {
+        float: none !important;
+    }
+    .name_img a img {
+         float: none !important;
+    }
+    .clientTable th {
+        width: 25%;
+    }
+
+}

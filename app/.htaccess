@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    RedirectMatch temp ^/wp/wp-admin$ http://www.teamworkers.jp/wp/
+    RewriteRule ^wp$ wp/ [L]
+    RewriteRule ^wp/wp-admin$ wp/wp-admin/ [L]
+    RewriteRule    ^$    webroot/    [L]
+    RewriteRule    (.*) webroot/$1    [L]
+</IfModule>
